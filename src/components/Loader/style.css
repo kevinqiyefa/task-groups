@@ -6,7 +6,7 @@
   height: 80px;
   -webkit-animation: spin 0.5s linear infinite; /* Safari */
   animation: spin 0.5s linear infinite;
-  margin: 3em auto;
+  margin: 10em auto;
 }
 /* Safari */
 @-webkit-keyframes spin {

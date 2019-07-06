@@ -17,7 +17,10 @@ The app is organized into a few main directories. This is relatively standard. H
 ### Component Folders
 
 ```sh
-
+├── App/  # The root component
+├── TaskGroups/ # The component displays all the task groups
+├── TaskGroup/    # The component displays all the tasks related to that group
+└── Loader/   # The loading spinner compoent
 ```
 
 One of the first things you will notice is that everything is basically in its own folder. Every component has a folder, for instance. Here's what goes into a component's folder:
