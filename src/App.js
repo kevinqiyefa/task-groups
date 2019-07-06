@@ -12,6 +12,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [taskGroups, setTaskGroups] = useState({});
 
+  //groups the tasks and transform the task object
   const generateGroups = data => {
     const groups = {};
     data.forEach(task => {
@@ -31,6 +32,7 @@ function App() {
     setTaskGroups(groups);
   };
 
+  //loop through all the tasks to check if all the dependency tasks are completed or not
   const checkDependencyTaskComplete = depIds => {
     const idsSet = new Set(depIds);
 
