@@ -1,0 +1,50 @@
+.task-group-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 8em auto;
+  text-align: left;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 2em 0;
+}
+
+.header-wrapper > h1 {
+  margin: 0;
+}
+
+.header-wrapper > a {
+  text-decoration: none;
+  color: #00bfff;
+}
+
+.tasks-wrapper > div {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 1em 0;
+}
+
+.locked > p,
+.completed > p,
+.incomplete > p {
+  margin: 1em 2em;
+}
+
+.completed > p,
+.incomplete > p {
+  font-weight: 900;
+}
+
+.locked {
+  color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
